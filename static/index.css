@@ -92,3 +92,44 @@ h3{
     color: rgb(68, 204, 136);
     font-size: 1.2rem;
 }
+
+.central{
+    width: 920px;
+    margin: 10px auto;
+}
+
+.product{
+    float: left;
+}
+
+.p-img{
+    width: 280px;
+    margin-bottom: 30px;
+}
+.central h3{
+    text-align: left;
+    background-color: rgb(68, 204, 136);
+    color: white;
+    margin: 10px 20px;
+    padding: 10px;
+}
+
+.product p{
+    margin: 30px 10px;
+    text-align: left;
+}
+
+.product a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(42, 126, 84);
+    padding: 10px;
+    border-radius: 30px;
+    margin: 10px auto;
+}
+
+/* .product a:hover{
+    background-color: white;
+    color: rgb(42, 126, 84);
+    border:solid rgb(42, 126, 84) 2px;
+} */
