@@ -100,7 +100,8 @@ h3{
 
 .product{
     float: left;
-}
+    margin-bottom: 30px;
+} 
 
 .p-img{
     width: 280px;
@@ -116,7 +117,7 @@ h3{
 
 .product p{
     margin: 30px 10px;
-    text-align: left;
+    text-align: center;
 }
 
 .product a{
@@ -125,11 +126,13 @@ h3{
     background-color: rgb(42, 126, 84);
     padding: 10px;
     border-radius: 30px;
-    margin: 10px auto;
+    margin: 10px 40px;
+    display:block;
+    text-align: center;
 }
 
-/* .product a:hover{
-    background-color: white;
-    color: rgb(42, 126, 84);
-    border:solid rgb(42, 126, 84) 2px;
-} */
+.product a:hover{
+    background-color: rgb(66, 196, 131);
+    color: white;
+
+} 
